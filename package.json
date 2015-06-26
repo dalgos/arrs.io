@@ -1,0 +1,22 @@
+{
+  "name": "arrs.io",
+  "version": "1.0.0",
+  "description": "arrs.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalgos/arrs.io.git"
+  },
+  "keywords": [
+    "arrs"
+  ],
+  "author": "dalgos@dalgos.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalgos/arrs.io/issues"
+  },
+  "homepage": "https://github.com/dalgos/arrs.io#readme"
+}
