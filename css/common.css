@@ -1,0 +1,156 @@
+
+/* Common */
+.container-fluid {padding:0; position:relative; font-size:18px; line-height:28px}
+.img-a {font-size:0; line-height:0; display:inline-block;}
+.mask {position:absolute; bottom:0; left:0; width:100%;}
+.ir {display:block; overflow:hidden; float:left; text-indent:-9999px;}
+.row {margin:0;}
+
+/* Layout */
+body {height:100%; font-family:'맑은 고딕', Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif; font-weight:normal;}
+.header {position:fixed; left:0; top:0; background:#ffffff; z-index:999; overflow:hidden; padding:0 16px;}
+ul {margin:0; padding:0;}
+ul li {list-style:none; padding:0;}
+dl {margin-bottom:0;}
+
+/* Contents */
+.logo {background:url('/imgs/logo_00.png') no-repeat left top; background-size:152px 64px; width:152px; height:64px; float:left}
+.mobs {float:right;}
+.mobs >a {background:url('/imgs/ic_download.png') no-repeat; width:64px; height:64px; float:left; background-size:128px 192px;}
+.mobs >a:hover {background-position-y:-64px;}
+.mobs .mob-ios {}
+.mobs .mob-and {background-position:-64px 0}
+
+.area {display:block; position:relative; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-01 {background:url('/imgs/photo_00.jpg') no-repeat center center; margin-top:64px; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-01 .mask {background:url('/imgs/bottom_mask_00.png') repeat-x left top; height:600px;}
+.area-01 .cont {width:400px; height:260px; position:absolute; left:50%; top:50%; margin-left:-200px; margin-top:-130px;}
+.area-01 .cont-sub {margin-top:40px; color:#ffffff;}
+
+.area-02 >span {height:100%; color:#ffffff}
+.area-02 .mask {background:url('/imgs/bottom_mask_00.png') repeat-x left top; height:600px;}
+.area-02 .cont-sub {width:400px; height:252px; position:absolute; bottom:152px; left:50%; margin-left:-200px}
+.area-02 .cont-sub dt {border:2px #ffffff solid; border-left:0; border-right:0; height:124px; vertical-align:middle;text-align:center; line-height:124px;}
+.area-02 .cont-sub dt span {line-height:38px; font-size:32px; display:inline-block; vertical-align:middle;}
+.area-02 .cont-sub dd {margin-top:32px; text-align:center}
+.area-02-01 {background:url('/imgs/photo_01.jpg') no-repeat center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-02-02 {background:url('/imgs/photo_02.jpg') no-repeat center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-02-03 {background:url('/imgs/photo_03.jpg') no-repeat center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+
+.area-03 {background:url('/imgs/photo_04.jpg') no-repeat center center; color:#ffffff; padding:72px 0; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover; -webkit-transition: background-image 0.6s ease-in-out; transition: background-image 0.6s ease-in-out; min-height:980px;}
+.area-03 .glass {background:#FE4578; opacity:0.6; position:absolute; width:100%; height:100%; filter:alpha(opacity=60); left:0; top:0;}
+.area-03 .carousel {width:640px; height:880px; position:absolute; left:50%; top:50%; margin-left:-320px; margin-top:-440px; overflow:hidden; text-align:center;}
+.area-03 .carousel .ul {padding:0; margin:0; touch-acton:pan-x}
+.area-03 .carousel .ul .li {float:left; width:640px; list-style:none; text-align:center;}
+.area-03 .carousel .ul .li dl {margin:0;}
+.area-03 .carousel .ul .li dt {line-height:0;}
+.area-03 .carousel .ul .li p {margin:0; padding:2px 0;}
+.area-03 .carousel .ul .li p.tit {font-size:32px; font-weight:bold; line-height:84px; margin:0; margin-top:8px; padding:0;}
+.area-03 .carousel .thumb {width:308px; height:636px; display:inline-block;}
+.area-03 .carousel .thumb-01 {background:url('/imgs/device_00.png') no-repeat center center; background-size:308px 636px; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-03 .carousel .thumb-02 {background:url('/imgs/device_01.png') no-repeat center center; background-size:308px 636px; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-03 .carousel .thumb-03 {background:url('/imgs/device_02.png') no-repeat center center; background-size:308px 636px; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-03 .carousel .pagin {display:inline-block; margin-top:44px;}
+.area-03 .carousel .pagin:after {content:''; display:block; float:none;}
+.area-03 .carousel .pagin a {background:url('/imgs/bg_dot.png') no-repeat left top; width:20px; height:20px; margin-left:16px; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+.area-03 .carousel .pagin a.on {background-position:0 -20px;}
+.area-03 .carousel .pagin a:first-child {margin-left:0;}
+.area-03 .contr {background:url('/imgs/btn_arrow_00.png') no-repeat left top; background-size:160px 240px; position:absolute; top:50%; margin-top:-40px; width:80px; height:80px;}
+.area-03 .contr:hover {background-position-y:-80px;}
+.area-03 .contr:active {background-position-y:-160px;}
+.area-03 .contr.prev {left:64px;}
+.area-03 .contr.prev:hover {background-position:0 -80px;}
+.area-03 .contr.prev:active {background-position:0 -160px;}
+.area-03 .contr.next {background-position:-80px 0; right:64px;}
+.area-03 .contr.next:hover {background-position:-80px -80px;}
+.area-03 .contr.next:active {background-position:-80px -160px;}
+
+.area-04 >div {padding:96px 0 0 96px;}
+.area-04 dl {color:#000000; opacity:0.8; margin-bottom:0}
+.area-04 dl dt {font-size:32px; line-height:40px;}
+.area-04 dl dd {margin-top:10px; line-height:30px;}
+.area-04 form {width:480px;}
+.area-04 input {width:100%; border:0; border-bottom:2px #b2b2b2 solid; line-height:54px; height:54px; outline:0; border-radius:0; color:#cccccc;}
+.area-04 input:focus {border-color:rgb(254, 69, 120); color:#333333;}
+.area-04 input.inp-sm {width:200px; float:left;}
+.area-04 input.inp-md {width:264px; margin-left:16px; float:left;}
+.area-04 .btn {width:180px; padding:15px 16px; border-radius:28px; -webkit-border-radius:28px; -moz-border-radius:28px; margin-top:36px; box-shadow:none; font-size:20px; behavior:url(/css/pie.htc)}
+.area-04 .btn[disabled] {opacity:0.2;}
+.area-04 .btn:disabled {opacity:0.2;}
+.area-04 .btn-default {border:2px rgba(0, 0, 0, 1) solid; opacity:0.2; padding:13px 14px;}
+.area-04 .btn-primary {background-color:rgb(254, 69, 120); border:0;}
+.area-04 .btn-primary:hover {background-color:rgb(254, 88, 134)}
+.area-04 .btn-primary:active {background-color:rgb(241, 65, 114)}
+
+.footer {background:#ebebeb; height:96px; padding:0 40px 0 0;}
+.slct {float:left; position:relative;}
+.slct button {outline:0; background:none; line-height:96px; padding:0; width:136px; text-align:left; padding-left:24px; margin-left:16px; font-size:16px; border:0;}
+.slct .slct-opts {display:none; position:absolute; left:0; top:-176px; background:#d9d9d9; padding:8px 0; margin-left:16px;}
+.slct .slct-opts button {font-size:16px; line-height:40px; outline:0; margin-left:0;}
+.slct .slct-flag {position:absolute; width:40px; height:40px; right:0; top:50%; margin-top:-20px; background:url('/imgs/btn_arrow_01.png') no-repeat left top; background-size:80px 120px;}
+.slct:hover .slct-flag {background-position:0, -40px;}
+.slct:active .slct-flag {background-position:0, -80px;}
+.slct.on .slct-flag {background-position:-40px 0;}
+.slct.on:hover .slct-flag {background-position:-40px -40px;}
+.slct.on:active .slct-flag {background-position:-40px -80px;}
+.slct.on .slct-opts {display:block;}
+
+.footer .copyright {float:right; margin-top:34px;}
+
+@media (max-width: 768px) {
+  .container-fluid {font-size:0.8em; line-height:initial;}
+  .header {padding:0 8px;}
+  .header .logo {background-size:auto 40px; height:40px;}
+  .area-01 {margin-top:40px;}
+  .area-01 .mask {height:400px;}
+  .area-01 .cont {width:240px; margin-left:-120px; height:154px; margin-top:-77px;}
+  .area-01 .cont .cont-sub {margin-top:10px}
+
+  .area-02 .mask {height:400px;}
+  .area-02 .cont-sub {width:240px; margin-left:-120px; bottom:50px; height:142px;}
+  .area-02 .cont-sub dt {border-top:1px #ffffff solid; border-bottom:1px #ffffff solid; height:76px; line-height:76px;}
+  .area-02 .cont-sub dt span {line-height:24px; font-size:18px;}
+  .area-02 .cont-sub dd {margin-top:20px;}
+
+  .area-03 {padding:0; min-height:initial;}
+  .area-03 .carousel {width:240px; height:432px; margin-left:-120px; margin-top:-216px;}
+  .area-03 .carousel .ul .li {width:240px;}
+  .area-03 .carousel .ul .li .thumb {width:140px; height:290px;}
+  .area-03 .carousel .ul .li p.tit {font-size:18px; line-height:46px;}
+  .area-03 .carousel .pagin {margin-top:20px;}
+  .area-03 .carousel .pagin a {width:10px; height:10px; margin-left:8px; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+  .area-03 .carousel .pagin a.on {background-position-y:-10px;}
+
+  .area-04 >div {padding:40px 40px 0 40px;}
+  .area-04 dl dt {font-size:18px; line-height:20px;}
+  .area-04 dl dd {line-height:15px;}
+  .area-04 .btn {width:100%; padding:8px 9px; border-radius:18px; margin-top:20px; box-shadow:none; font-size:14px;}
+  .area-04 .btn-default {border:1px rgba(0, 0, 0, 1) solid; opacity:0.2;}
+  .area-04 form {width:100%;}
+  .area-04 form input {line-height:31px; margin-top:20px; font-size:12px; border-bottom:1px #000000 solid;}
+  .area-04 input.inp-sm {width:40%;}
+  .area-04 input.inp-md {width:56.666%; margin-left:3.333%;}
+  .area-04 form .btn {margin:32px 0;}
+
+  .footer {height:80px; text-align:center; padding:0;}
+  .footer .copyright {display:inline-block; float:none; opacity:0.4;}
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+  .logo {
+    background-image: url('/imgs/logo_00@2x.png');
+  }
+
+  .mobs >a {background-image:url('/imgs/ic_download@2x.png')}
+
+  .area-03 .carousel .thumb-01 {background-image:url('/imgs/device_00@2x.png')}
+  .area-03 .carousel .thumb-02 {background-image:url('/imgs/device_01@2x.png')}
+  .area-03 .carousel .thumb-03 {background-image:url('/imgs/device_02@2x.png')}
+  .area-03 .contr {background-image:url('/imgs/btn_arrow_00@2x.png');}
+
+  .slct .slct-flag {background-image:url('/imgs/btn_arrow_01@2x.png')}
+
+}

@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/dalgos/arrs.io/issues"
   },
-  "homepage": "https://github.com/dalgos/arrs.io#readme"
+  "homepage": "https://github.com/dalgos/arrs.io#readme",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio":"latest"
+  }
 }
